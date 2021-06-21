@@ -1,0 +1,32 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:jest/all"],
+
+  "plugins": ["prettier", "jest"],
+
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+
+  "rules": {
+    "comma-dangle":["error","always-multiline"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "jest/no-hooks": "off",
+    "jest/prefer-expect-assertions": "off"
+  }
+}
