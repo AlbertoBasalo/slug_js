@@ -24,7 +24,7 @@ console.log(
 
 console.log(
   getSlug(
-    "When should I migrate my Frontend to an architecture based on microfrontends?",
+    "When should I migrate my Frontend to an architecture based on micro-frontends?",
     undefined,
     true
   )

@@ -1,4 +1,4 @@
-export function getSlug(source, lenght = 100, timestamp, datestamp) {
+export function getSlug(source, length = 100, timestamp, datestamp) {
   let cleanSource = String(source)
     .trim()
     .toLowerCase()
@@ -23,8 +23,8 @@ export function getSlug(source, lenght = 100, timestamp, datestamp) {
     .replace("$", "dollar")
     .replace("€", "euros");
 
-  if (cleanSource.length > lenght) {
-    cleanSource = cleanSource.slice(0, lenght);
+  if (cleanSource.length > length) {
+    cleanSource = cleanSource.slice(0, length);
   }
   if (timestamp) {
     cleanSource += "_" + Date.now();
