@@ -2,6 +2,8 @@ import { getSlug } from "./lib.js";
 
 console.log(getSlug("Elon Musk considers move to Mars"));
 
+console.log(getSlug("Elon Musk considers move to Mars"));
+
 console.log(getSlug("Fintech startups raised 34B€ in 2019"));
 
 console.log(getSlug("Shopify joins Facebook’s cryptocurrency Libra Association"));
