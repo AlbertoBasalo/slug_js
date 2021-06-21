@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:jest/all"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:jest/all", "prettier"],
 
   "plugins": ["prettier", "jest"],
 
@@ -19,7 +19,6 @@
   },
 
   "rules": {
-    "comma-dangle":["error","always-multiline"],
     "prettier/prettier": [
       "error",
       {

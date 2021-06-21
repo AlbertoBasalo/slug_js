@@ -31,9 +31,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/lepton/issues"
+    "url": "https://github.com/LabsAdemy/slug_js/issues"
   },
-  "homepage": "https://github.com/AtomicBuilders/lepton#readme",
+  "homepage": "https://github.com/LabsAdemy/slug_js#readme",
   "devDependencies": {
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
