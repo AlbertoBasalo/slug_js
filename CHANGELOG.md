@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/AtomicBuilders/lepton/compare/v1.1.1...v1.1.2) (2021-06-21)
+
+
+### Bug Fixes
+
+* eslint prettier config ([b0c931f](https://github.com/AtomicBuilders/lepton/commit/b0c931f5eb392be1f781d04f06ee576713551bec))
+
 ### 1.1.1 (2021-06-21)
 
 ## 1.1.0 (2021-06-21)
