@@ -1,7 +1,7 @@
 {
-  "name": "lepton",
+  "name": "slug_js",
   "version": "1.1.2",
-  "description": "Fundamental Javascript template",
+  "description": "Gets a url and human friendly short string from any text",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -18,11 +18,10 @@
   },
   "keywords": [
     "javascript",
-    "eslint",
-    "prettier",
-    "standard-version",
-    "jest",
-    "template"
+    "cleancode",
+    "test",
+    "tutorial",
+    "jest"
   ],
   "author": {
     "name": "Alberto Basalo",
